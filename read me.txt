@@ -1,0 +1,3 @@
+you need a server to run it 
+hint: 
+install live server extension in visual studio code and run it..

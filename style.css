@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+text-align: center;
+}
+
+.container {
+    height: auto;
+    margin-top: 3px;
+}
+
+.btnArr {
+    font-size: 12px;
+    padding: 3px 5px;
+    cursor: pointer;
+    box-shadow: 3px 4px 5px blue;
+    margin: 3px;
+}
+
+.btnArr:active {
+    transition: 0.2s ease-in;
+    box-shadow: none;
+    transform: translate(2px);
+}
+
+.buttons {
+    display: block;
+
+}
